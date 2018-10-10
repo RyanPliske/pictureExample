@@ -13,6 +13,7 @@
 		F9783CB3216D96C8009E0C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9783CB2216D96C8009E0C95 /* Assets.xcassets */; };
 		F9783CB6216D96C8009E0C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9783CB4216D96C8009E0C95 /* LaunchScreen.storyboard */; };
 		F9783CC1216D96C8009E0C95 /* pictureExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9783CC0216D96C8009E0C95 /* pictureExampleTests.swift */; };
+		F9783CCC216DA9EC009E0C95 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9783CCB216DA9EC009E0C95 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F9783CBC216D96C8009E0C95 /* pictureExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pictureExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9783CC0216D96C8009E0C95 /* pictureExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pictureExampleTests.swift; sourceTree = "<group>"; };
 		F9783CC2216D96C8009E0C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9783CCB216DA9EC009E0C95 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F9783CAB216D96C6009E0C95 /* AppDelegate.swift */,
 				F9783CAD216D96C6009E0C95 /* ViewController.swift */,
+				F9783CCB216DA9EC009E0C95 /* CustomCollectionViewCell.swift */,
 				F9783CAF216D96C6009E0C95 /* Main.storyboard */,
 				F9783CB2216D96C8009E0C95 /* Assets.xcassets */,
 				F9783CB4216D96C8009E0C95 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9783CAE216D96C6009E0C95 /* ViewController.swift in Sources */,
+				F9783CCC216DA9EC009E0C95 /* CustomCollectionViewCell.swift in Sources */,
 				F9783CAC216D96C6009E0C95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
